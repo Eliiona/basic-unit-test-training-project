@@ -47,8 +47,8 @@ src/test/java/lv/bootcamp/shelter/
 | 3 | `task23`  | Error cases | `assertThrows`, exception messages |
 | 4 | `task4`   | Collection order | AssertJ list assertions |
 | 5 | `task5`   | CSV scenarios | `@Nested` classes, `@DisplayName` |
-| 6 | `stretch` | File output formatting | AssertJ string/list assertions |
-| 7 | `task6`   | Mocking a dependency | `@Mock`, `@InjectMocks`, `when/thenReturn`, `verify` |
+| 6 | `task6`   | Mocking a dependency | `@Mock`, `@InjectMocks`, `when/thenReturn`, `verify` |
+| 7 | `stretch` | File output formatting | AssertJ string/list assertions |
 | 8 | All       | Coverage | IntelliJ coverage runner |
 
 `task5` introduces Mockito basics: mock a repository dependency so you can test the `IntakeService` in isolation.
