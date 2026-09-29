@@ -51,7 +51,7 @@ src/test/java/lv/bootcamp/shelter/
 | 7 | `task6`   | Mocking a dependency | `@Mock`, `@InjectMocks`, `when/thenReturn`, `verify` |
 | 8 | All       | Coverage | IntelliJ coverage runner |
 
-`task5` introduces Mockito basics: mock a repository dependency so you can test the `IntakeService` in isolation. JPA and controller tests come later in M14.
+`task5` introduces Mockito basics: mock a repository dependency so you can test the `IntakeService` in isolation.
 
 ## Task 8: Coverage check
 
@@ -60,6 +60,7 @@ After completing tasks 1–7:
 2. Review which lines are green (covered) vs red (not covered)
 3. Identify at least two untested branches
 4. Decide: would tests for those branches catch real bugs?
+5. Write your decision and reasoning in task8.txt in project root.
 
 ## Dependencies
 
